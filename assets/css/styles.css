@@ -80,10 +80,11 @@ section {
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpeg");
-    height: 600px;
     background-position: center;
     background-size: cover;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-form {
@@ -91,10 +92,6 @@ section {
     color: #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
 }
 
 .hero-form h3 {
